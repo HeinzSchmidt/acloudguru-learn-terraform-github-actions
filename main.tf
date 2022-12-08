@@ -14,6 +14,7 @@ terraform {
   backend "remote" {
     organization = "wdtrust-heinz-terraform"
 
+
     workspaces {
       name = "Demo-github-actions"
     }
